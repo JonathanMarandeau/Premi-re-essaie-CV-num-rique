@@ -154,3 +154,7 @@ section{
   border-top: 5px solid #fffa00;
   background-color: RGBa(255, 250, 0, 0.15)
 }
+.turquoise{
+  border-top: 5px solid #00d8ff;
+  background-color: RGBa(0, 216, 255, 0.15)
+}
