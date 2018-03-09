@@ -62,3 +62,57 @@ nav a{
 nav li:hover a{
   padding: 15px 30px 20px 30px;
 }
+@media screen and (max-width:780px){
+  header{
+    height: 50px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0px 0px;
+  }
+  nav li a{
+    font-size: 12px;
+    padding: 10px;
+  }
+  nav li:hover a{
+    padding: 5px 10px 10px 10px;
+  }
+}
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.sec{
+  margin: 0px 10%;
+}
+.left{
+  float:left;
+  width: 30%;
+}
+.right{
+  float: left;
+  width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+  width: 50%;
+  float: left;
+}
+.sec::after, .exp::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+#présentation{
+  border-top: 5px solid #4c8;
+  background-color: RGba(64, 200, 130, 0.15)
+}
+#parcours{
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15)
+}
+#compétences{
+  border-top: 5px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15)
+}
