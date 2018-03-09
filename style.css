@@ -133,3 +133,24 @@ section{
   width: 50%;
   margin-left: 5%;
 }
+.lefthob{
+  float: left;
+  width: 45%;
+}
+.righthob{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+}
+.vert{
+  border-top: 5px solid #278405;
+  background-color: RGBa(39, 132, 5, 0.15)
+}
+.rose{
+  border-top: 5px solid #ff00bb;
+  background-color: RGBa(255, 0, 187, 0.15)
+}
+.jaune{
+  border-top: 5px solid #fffa00;
+  background-color: RGBa(255, 250, 0, 0.15)
+}
