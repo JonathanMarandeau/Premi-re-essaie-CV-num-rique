@@ -89,11 +89,11 @@ section{
 }
 .left{
   float:left;
-  width: 30%;
+  width: 40%;
 }
 .right{
   float: left;
-  width: 70%;
+  width: 60%;
 }
 .cleft, .cright, .sousleft, .sousright{
   width: 50%;
@@ -115,4 +115,21 @@ section{
 #compétences{
   border-top: 5px solid #0070bb;
   background-color: RGBa(000, 112, 192, 0.15)
+}
+.bleu{
+  border-top: 5px solid #4286f4;
+  background-color: RGBa(66, 134, 244, 0.15)
+}
+.rouge{
+  border-top: 5px solid #cc0a0a;
+  background-color: RGBa(204, 10, 10, 0.15)
+}
+.leftexp{
+  float: left;
+  width: 45%;
+}
+.rightexp{
+  float: left;
+  width: 50%;
+  margin-left: 5%;
 }
